@@ -1,11 +1,14 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
 echo "========================================"
 echo "  Verificando ADRI TECH TOOLKIT v2.0"
 echo "========================================"
 echo ""
 
-BASE="usb"
+BASE="$PROJECT_DIR/usb"
 ERRORS=0
 
 check_dir() {

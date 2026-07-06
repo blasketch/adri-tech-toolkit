@@ -1,10 +1,13 @@
 #!/bin/bash
 
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
 USB="$1"
 
 if [ -z "$USB" ]; then
     echo "Uso:"
-    echo "  ./scripts/sync_usb.sh /media/inelcom/MULTIBOOT"
+    echo "  $0 /media/inelcom/MULTIBOOT"
     exit 1
 fi
 
@@ -16,7 +19,7 @@ fi
 echo "Sincronizando ADRI TECH TOOLKIT → $USB ..."
 rsync -avh --delete \
     --exclude='.gitkeep' \
-    usb/ "$USB/"
+    "$PROJECT_DIR/usb/" "$USB/"
 
 echo ""
 echo "✓ USB actualizado correctamente."
