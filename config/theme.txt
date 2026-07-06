@@ -1,0 +1,13 @@
+display_mode=GUI
+
+default_font=/ventoy/theme/fonts/unicode.pf2
+
+background=/ventoy/theme/background.png
+
+color_normal=white
+
+color_highlight=cyan
+
+menu_pos=50% 20%
+
+menu_size=70% 60%

@@ -1,0 +1,7 @@
+*.iso
+*.img
+*.vhd
+*.vhdx
+*.qcow2
+
+usb/ISO/*
