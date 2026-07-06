@@ -4,4 +4,23 @@
 *.vhdx
 *.qcow2
 
-usb/ISO/*
+usb/00_ISOS/*
+!usb/00_ISOS/.gitkeep
+
+usb/01_Drivers/*
+!usb/01_Drivers/.gitkeep
+
+usb/02_Firmware/*
+!usb/02_Firmware/.gitkeep
+
+usb/03_Portables/*
+!usb/03_Portables/.gitkeep
+
+usb/04_Scripts/*
+!usb/04_Scripts/.gitkeep
+
+usb/05_IT/*
+!usb/05_IT/.gitkeep
+
+usb/06_Utils/*
+!usb/06_Utils/.gitkeep
