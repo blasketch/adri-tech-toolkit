@@ -26,8 +26,4 @@
         { "dir": "/06_Utils",               "class": "tools" }
     ],
 
-    "menu_tip": {
-        "show_tip": "1",
-        "tip_text": "ADRI TECH TOOLKIT v2.0 - USB Técnico de Campo | Selecciona ISO o navega a las carpetas"
-    }
 }
